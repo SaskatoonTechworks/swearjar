@@ -1,0 +1,22 @@
+SwearJar
+-=-=-=-=
+A simple swear counter extension for Phenny
+
+Edit default.py and place in ~/.phenny/
+place fuck.py in your phenny installs modules directory
+
+Usage
+-=-=-
+
+After startup enter ".fuck User1 User2 User3" to see the Fucks per hour of the
+users.
+
+License
+-=-=-=-=
+This module is released under the WTFPL
+
+Bugs
+-=-=
+- Fuck counter is incremented on issuing a query
+- Doesn't handle other curse words
+- Only checks for one instance of fuck per line
